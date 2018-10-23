@@ -4,7 +4,7 @@
       display: none;
 
       &:checked + .title:before {
-        background-color: #642f9c;
+        background-color: $secondary-color;
       }
     }
   }
@@ -71,7 +71,7 @@
     }
 
     .description {
-      color: #8197a2;
+      color: $text-color;
       line-height: 20px;
       font-size: 12px;
     }

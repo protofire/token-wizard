@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Web3 from 'web3'
 import Dropzone from 'react-dropzone'
 import Papa from 'papaparse'
-import '../../assets/stylesheets/application.css'
 import { InputField } from './InputField'
 import { RadioInputField } from './RadioInputField'
 import { TEXT_FIELDS, VALIDATION_TYPES } from '../../utils/constants'
@@ -15,7 +14,6 @@ import processReservedTokens from '../../utils/processReservedTokens'
 import logdown from 'logdown'
 
 const logger = logdown('TW:ReservedTokensInputBlock')
-
 const { VALID, INVALID } = VALIDATION_TYPES
 const { ADDRESS, DIMENSION, VALUE } = TEXT_FIELDS
 
@@ -273,12 +271,14 @@ export class ReservedTokensInputBlock extends Component {
         <div style={actionsStyle}>
           {tokensListEmpty ? null : (
             <div className="clear-all-tokens" style={clearAllStyle} onClick={this.props.clearAll}>
-              <i className="fa fa-trash" />&nbsp;Clear All
+              <i className="fa fa-trash" />
+              &nbsp;Clear All
             </div>
           )}
 
           <Dropzone onDrop={this.onDrop} accept=".csv" style={dropzoneStyle}>
-            <i className="fa fa-upload" title="Upload CSV" />&nbsp; Upload CSV
+            <i className="fa fa-upload" title="Upload CSV" />
+            &nbsp; Upload CSV
           </Dropzone>
         </div>
       </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../../assets/stylesheets/application.css'
+
 import CrowdsalesList from '../Common/CrowdsalesList'
 import { Loader } from '../Common/Loader'
 import { ModalContainer } from '../Common/ModalContainer'
@@ -119,7 +119,8 @@ export class Home extends Component {
                 Token Wizard is a client side tool to create ERC20 token and crowdsale in five steps. It helps you to
                 publish contracts on the Ethereum network, create a crowdsale page with stats. For participants, the
                 wizard creates a page to contribute into the campaign.
-                <br />Token Wizard is powered by <a href="https://github.com/auth-os/beta">Auth-os</a>.
+                <br />
+                Token Wizard is powered by <a href="https://github.com/auth-os/beta">Auth-os</a>.
               </p>
               <div className="buttons">
                 <button onClick={() => this.goNextStep()} className="button button_fill button_no_border">

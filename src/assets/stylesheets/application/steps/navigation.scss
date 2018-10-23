@@ -12,7 +12,7 @@
   .step-navigation {
     position: relative;
     padding-left: 30px;
-    color: #8197a2;
+    color: $text-color;
     text-transform: uppercase;
     line-height: 20px;
     font-size: 11px;
@@ -32,7 +32,7 @@
       left: 0;
       top: 50%;
       border-radius: 50%;
-      background-color: fade-out(#8197a2, 0.6);
+      background-color: fade-out($text-color, 0.6);
       color: #fff;
       line-height: 20px;
       text-align: center;
@@ -44,7 +44,7 @@
       color: #333;
 
       &:before {
-        background-color: #08b3f2;
+        background-color: $primary-color;
       }
     }
   }

@@ -1,18 +1,18 @@
 @import './application/variables';
 @import './application/mixins';
 @import './application/placeholders';
+
 @import './application/fonts';
 @import './application/base';
-@import './application/header';
-@import './application/footer';
-@import './application/socials';
-@import './application/step-icons';
-@import './application/controls';
+
 @import './application/contribute';
-@import './application/payment-process';
-@import './application/home/*';
-@import './application/steps/*';
-@import './application/loading';
+@import './application/controls';
 @import './application/flex-table';
+@import './application/footer';
+@import './application/home/*';
+@import './application/loading';
 @import './application/manage';
+@import './application/payment-process';
 @import './application/stats';
+@import './application/step-icons';
+@import './application/steps/*';

@@ -1,9 +1,9 @@
 %home-items {
   @extend %full-width;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  height: 50%;
   justify-content: center;
   position: absolute;
-  height: 50%;
-  box-sizing: border-box;
 }

@@ -14,7 +14,7 @@
   @extend %home-items;
   bottom: 0;
   padding-bottom: $footer-height;
-  background-color: #f5f5f7;
+  background-color: #f8f9fc;
   font-size: 0;
 
   .step-icons {
@@ -29,17 +29,17 @@
   }
 
   .process-item {
-    opacity: 0;
-    animation-name: show-process;
     animation-duration: 1s;
     animation-fill-mode: forwards;
-    position: relative;
+    animation-name: show-process;
+    box-sizing: border-box;
     display: inline-block;
+    opacity: 0;
+    padding: 130px 10px 0;
+    position: relative;
+    text-align: center;
     vertical-align: top;
     width: 20%;
-    padding: 130px 10px 0;
-    box-sizing: border-box;
-    text-align: center;
 
     @for $i from 1 through 5 {
       &:nth-child(#{$i}) {
@@ -52,19 +52,19 @@
     }
 
     &:after {
-      position: absolute;
-      width: 32px;
-      height: 32px;
-      right: 28px;
-      top: -16px;
+      background-color: $secondary-color;
       border-radius: 50%;
       border: 4px solid #fff;
-      background-color: #08b3f2;
       color: #fff;
-      line-height: 32px;
-      text-align: center;
       font-size: 14px;
       font-weight: bold;
+      height: 32px;
+      line-height: 32px;
+      position: absolute;
+      right: 28px;
+      text-align: center;
+      top: -16px;
+      width: 32px;
     }
   }
 
@@ -76,7 +76,7 @@
   }
 
   .description {
-    color: #8197a2;
+    color: $text-color;
     line-height: 18px;
     font-size: 12px;
   }

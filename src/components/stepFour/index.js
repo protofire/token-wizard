@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import '../../assets/stylesheets/application.css'
+
 import {
   buildDeploymentSteps,
   getOptimizationFlagByStore,
@@ -560,7 +560,7 @@ export class stepFour extends Component {
         don't want to continue with that deploy,{' '}
         <a href="" onClick={this.cancelDeploy}>
           click here
-        </a>.
+        </a>
       </div>
     ) : (
       <TxProgressStatus

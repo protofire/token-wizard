@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 import { TOAST, VALIDATION_TYPES } from '../../utils/constants'
-import '../../assets/stylesheets/application.css'
+
 import {
   invalidCrowdsaleExecIDProxyAlert,
   invalidNetworkIDAlert,

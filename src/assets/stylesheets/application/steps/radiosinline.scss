@@ -1,45 +1,45 @@
 .steps {
   .radios-inline {
     height: 36px;
-    vertical-align: middle;
     margin-bottom: 15px;
+    vertical-align: middle;
 
     input {
       display: none;
 
       &:checked + .title:before {
-        background-color: #642f9c;
+        background-color: $secondary-color;
       }
     }
   }
 
   .radio-inline {
     cursor: pointer;
-    position: relative;
     display: table-cell;
+    line-height: 36px;
     padding-left: 30px;
     padding-right: 20px;
-    line-height: 36px;
+    position: relative;
 
     &:last-child {
       margin-bottom: 30px;
     }
 
     .title {
-      position: relative;
       display: block;
+      position: relative;
 
       &:before {
-        content: '';
-        position: absolute;
-        left: -29px;
-        top: 50%;
-        width: 10px;
-        height: 10px;
-        margin-top: -8.5px;
+        border-radius: 50%;
         border: 5px solid #fff;
         box-shadow: 0 0 0 1px #cdd5da;
-        border-radius: 50%;
+        content: '';
+        height: 10px;
+        left: -29px;
+        margin-top: -8.5px;
+        position: absolute;
+        top: 50%;
+        width: 10px;
       }
     }
   }
