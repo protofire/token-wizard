@@ -48,11 +48,11 @@
 
   &_fill_secondary {
     background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAMAAADXqc3KAAAAFVBMVEX///////////////////////////9nSIHRAAAABnRSTlMASUrk5udXTd49AAAAOUlEQVR42tXQsQEAIAgDQcAn+4+snRZxAK79KokrIcNBwgYdc0Migwxk8Qsd1TJWDf/KQWobqt+9G4coA99W7as5AAAAAElFTkSuQmCC) !important;
-    background-color: #64299D;
+    background-color: $secondary-color;
     color: #fff;
 
     &:hover {
-      background-color: #752fb6;
+      background-color: $secondary-color;
     }
     margin-right: 10px;
   }

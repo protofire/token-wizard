@@ -346,12 +346,14 @@ export class WhitelistInputBlock extends React.Component {
         <div style={actionsStyle}>
           {whitelistEmpty ? null : (
             <div className="clear-all-tokens" style={clearAllStyle} onClick={this.clearAll}>
-              <i className="fa fa-trash" />&nbsp;Clear All
+              <i className="fa fa-trash" />
+              &nbsp;Clear All
             </div>
           )}
 
           <Dropzone onDrop={this.onDrop} accept=".csv" style={dropzoneStyle}>
-            <i className="fa fa-upload" title="Upload CSV" />&nbsp; Upload CSV
+            <i className="fa fa-upload" title="Upload CSV" />
+            &nbsp; Upload CSV
           </Dropzone>
         </div>
       </div>

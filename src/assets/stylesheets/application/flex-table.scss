@@ -78,8 +78,8 @@
       }
 
       &.active {
-        background-color: #6b0392;
-        color: #e8e8e8;
+        background-color: $secondary-color;
+        color: #fff;
         transition: 0.8s;
       }
     }
