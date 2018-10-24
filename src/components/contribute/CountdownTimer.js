@@ -62,12 +62,12 @@ const CountdownTimer = ({
     <div className="timer-container">
       <div style={{ marginLeft: '-20px', marginTop: '-20px' }}>
         <ReactCountdownClock
-          seconds={msToNextTick / 1000}
-          color="#733EAB"
-          alpha={0.9}
-          size={270}
-          showMilliseconds={false}
+          alpha={0.85}
+          color="#ffc300"
           onComplete={onComplete}
+          seconds={msToNextTick / 1000}
+          showMilliseconds={false}
+          size={270}
         />
       </div>
       <div className="timer">

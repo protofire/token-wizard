@@ -1,9 +1,9 @@
 .contribute {
-  margin: 30px auto;
-  padding-left: 30px;
+  background-color: #fff;
   border-radius: 8px;
   border: 1px solid #eee;
-  background-color: #fff;
+  margin: 30px auto;
+  padding-left: 30px;
 
   &.container {
     min-width: 960px;
@@ -11,16 +11,16 @@
     width: auto;
   }
   .timer {
-    position: absolute;
-    z-index: 2;
+    background-color: #fff;
+    border-radius: 50%;
+    height: 180px;
     left: 25px;
+    line-height: 230px;
+    position: absolute;
+    text-align: center;
     top: 25px;
     width: 180px;
-    height: 180px;
-    border-radius: 50%;
-    background-color: #fff;
-    line-height: 230px;
-    text-align: center;
+    z-index: 2;
 
     &-inner {
       line-height: normal;
@@ -38,7 +38,7 @@
     &-count {
       display: block;
       margin-bottom: 5px;
-      color: #642f9c;
+      color: $tertiary-color;
       font-size: 24px;
       font-weight: bold;
     }
@@ -79,7 +79,7 @@
       text-overflow: ellipsis;
       margin-bottom: 5px;
       height: 20px;
-      color: #642f9c;
+      color: $tertiary-color;
       font-weight: bold;
     }
 
@@ -106,7 +106,7 @@
 
     &-title {
       margin-bottom: 5px;
-      color: #642f9c;
+      color: $tertiary-color;
       font-size: 20px;
       font-weight: bold;
     }
